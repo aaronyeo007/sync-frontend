@@ -2,7 +2,7 @@ import axios from "axios";
 import queryString from "query-string";
 
 // const baseURL = "http://127.0.0.1:5000/api/v1";
-const baseURL = "https://sync-server-lt2a.onrender.com";
+const baseURL = "https://sync-server-lt2a.onrender.com/api/v1";
 const getToken = () => localStorage.getItem("token");
 // creates an instance of the Axios HTTP client configured to send to the
 // specific base URL
